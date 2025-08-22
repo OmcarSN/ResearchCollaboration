@@ -1,0 +1,15 @@
+[package]
+name = "ResearchCollaboration"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x4fbef828c199732ce7c419762da1ae9bec876deb2d2bee6b50b1f2ca29129422"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
